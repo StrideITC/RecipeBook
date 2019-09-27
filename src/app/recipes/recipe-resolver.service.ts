@@ -3,7 +3,6 @@ import { Resolve, ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/r
 import { Recipe } from './recipe.model';
 import { DataStorageService } from '../shared/data-storage-service';
 import { RecipeService } from './recipe.service';
-RecipeService
 
 //this for remove bug (routing)
 //here we use Resolve interface for resolve 
