@@ -18,7 +18,7 @@ export class RecipeResolverService implements Resolve<Recipe[]>
         if(recipe.length === 0)
         {
             return this.dataStorageService.getRecipe();
-        }
+        }   
         else
         {
             return recipe;
